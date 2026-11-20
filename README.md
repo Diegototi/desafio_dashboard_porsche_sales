@@ -8,7 +8,7 @@ Desafio DIO. Criando dashboard de vendas com modelos de carros da Porsche.
 <br>
 <br>
 <p align="center">
-  <a href="#perguntas-de-negocio">Perguntas de negócio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#perguntas-de-negócio">Perguntas de negócio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#heavy_check_mark-requisitos-necessários">Requisitos necessários</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#arrow_down_small-clonando-o-repositório">Clonando o repositório</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#beginner-iniciando-a-aplicação">Iniciando a aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -27,6 +27,7 @@ Desafio DIO. Criando dashboard de vendas com modelos de carros da Porsche.
 **Interatividade e indicadores de desempenho**
 
 Todos os indicadores e análises possuem representações gráficas e podem ser explorados por meio de filtros interativos de Ano da venda, Cidade e Forma de pagamento, permitindo segmentar os dados e comparar diferentes cenários. A dashboard apresenta quatro indicadores principais:
+<br>
 Volume de vendas: quantidade total de vendas realizadas.
 <br>
 Receita bruta: valor total gerado pelas vendas.
