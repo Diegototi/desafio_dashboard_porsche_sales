@@ -4,11 +4,11 @@ Desafio DIO. Criando dashboard de vendas com modelos de carros da Porsche.
   Desenvolvi este dashboard como parte do desafio do curso **Criando Agentes de Tratamento de Dados**, da [DIO](https://www.dio.me/). Na prática, utilizei Inteligência Artificial para manipular uma planilha e transformar dados brutos em uma base limpa e sanitizada. Em seguida, construí o dashboard para centralizar os principais indicadores (KPIs) em uma única tela, facilitando o acompanhamento de metas e a tomada de decisões rápidas.
 
   
-  
+<br>  
 <br>
 <br>
 <p align="center">
-  <a href="#heavy_check_mark-perguntas-de-negócio">Perguntas de negócio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#question-perguntas-de-negócio">Perguntas de negócio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#heavy_check_mark-requisitos-necessários">Requisitos necessários</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#arrow_down_small-clonando-o-repositório">Clonando o repositório</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#beginner-iniciando-a-aplicação">Iniciando a aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -17,7 +17,7 @@ Desafio DIO. Criando dashboard de vendas com modelos de carros da Porsche.
 </p>
 <br>
 
-### Perguntas de negócio
+### :question: Perguntas de negócio
 
 * **Indicadores de topo, como total de vendas e receita** - Permitem uma visão rápida do desempenho comercial, facilitando o acompanhamento do volume de vendas e do faturamento gerado. Funcionam como indicadores de referência para avaliar os resultados gerais do negócio.
 * **Modelos campeões de vendas** - Destaca os veículos com maior volume de vendas no período analisado, permitindo identificar os modelos de melhor desempenho comercial e compreender quais produtos concentram maior participação nas vendas.
