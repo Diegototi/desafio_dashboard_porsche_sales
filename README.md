@@ -8,14 +8,32 @@ Desafio DIO. Criando dashboard de vendas com modelos de carros da Porsche.
 <br>
 <br>
 <p align="center">
+  <a href="#bar_chart-tratando-a-base-de-dados">Tratando a base de dados</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
   <a href="#question-perguntas-de-negócio">Perguntas de negócio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#bulb-prompt-e-ferramentas-do-dashboard">Prompt e ferramentas do dashboard</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#heavy_check_mark-requisitos-necessários">Requisitos necessários</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#arrow_down_small-clonando-o-repositório">Clonando o repositório</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#beginner-iniciando-a-aplicação">Iniciando a aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#wrench-tecnologias--ferramentas--recursos">Tecnologias | Ferramentas | Recursos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">Licença</a>
 </p>
+<br>
+
+### :bar_chart: Tratando a base de dados
+
+A base de dados consiste em uma planilha com o histórico de vendas de veículos **Porsche** ao longo de vários anos, contendo as seguintes colunas: `ID`, `vendedor`, `comprador`, `cidade`, `estado`, `modelo`, `ano de fabricação`, `preço` e `status da venda`.
+
+Para corrigir inconsistências e padronizar informações (como datas, moedas, nomes de cidades e modelos), utilizei o **Claude** (versão gratuita) seguindo este fluxo:
+
+1. **Definição de regras (`schema.md`):** Criei um arquivo de especificações contendo as regras e exemplos de formatação esperada para cada coluna.
+2. **Processamento com IA:** Enviei a planilha bruta junto com o arquivo `schema.md` para o Claude utilizando o seguinte prompt:
+
+```text
+Crie um agente que leia o arquivo Planilha Porsche.xlsx e aplique as regras do schema.md para gerar um novo arquivo tratado.
+```
+
+3. **Saída e automação (`porsche.py`):** O Claude retornou a planilha já sanitizada e gerou um script em Python (utilizando a biblioteca `openpyxl`). O código lê o arquivo `.xlsx`, cria colunas *"Sanitized"* ao lado das originais, marca valores fora do padrão como `INVALID` e gera uma aba de log detalhando todas as alterações.
+4. **Validação final:** Após revisar o log e realizar pequenos ajustes manuais, a base ficou pronta para alimentar o dashboard.
+<br>
+<br>
 <br>
 
 ### :question: Perguntas de negócio
@@ -39,15 +57,6 @@ Todos os indicadores e análises possuem representações gráficas e podem ser 
 <br>
 <br>
 <br>
-
-
- <p align="center">
-    <img src="imgs/screenshot_expo-go-home.jpg" width="20%" height="20%" max-width:"50%" >
-    <img src="imgs/screenshot_expo-go-add.jpg" width="20%" height="20%" max-width:"50%" >
-    <img src="imgs/Screenshot_expo go-list.jpg" width="20%" height="20%" max-width:"50%" >
-    <img src="imgs/screenshot__expo-go-alert.jpg" width="20%" height="20%" max-width:"50%" >
-    <img src="imgs/screenshot_expo-go-delete.jpg" width="20%" height="20%" max-width:"50%" >
-  </p>
 
 ### :bulb: Prompt e ferramentas do dashboard
 
@@ -78,13 +87,13 @@ Após visualizar e conferir a primeira versão do dashboard, utilizei o seguinte
 - Nos campos onde aparecem valores, mantenha o padrão com duas casas decimais após a vírgula sem arredondamento, nesse padrão: "Receita bruta \$12.827.800,50"
 - Alguns gráficos estão cortando informações, por exemplo "Formas de pagamento - Quantidade por forma de pagamento" e "Desempenho por cidade - Ranking por volume · modelo, ano e valor". Pode escolher um gráfico melhor e/ou ajustar
 ```
+<br>
+<br>
+<br>
 
-### :arrow_down_small: Clonando o repositório
-1. Pelo terminal, acesse o diretório em que deseja ter o repositório clonado e execute o comando a seguir.
-```bash
-# clonando o repositório
-git clone https://github.com/Diegototi/igniteteams.git
-```
+
+
+
 
 ### :beginner: Iniciando a aplicação
 Abra o projeto e instale as dependências e rode o projeto:
