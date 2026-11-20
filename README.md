@@ -15,7 +15,7 @@ Desafio DIO. Criando dashboard de vendas com modelos de carros da Porsche.
   <a href="#wrench-tecnologias--ferramentas--recursos">Tecnologias | Ferramentas | Recursos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">Licença</a>
 </p>
-
+<br>
 
 ### Perguntas de negócio
 
