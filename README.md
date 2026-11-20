@@ -8,7 +8,7 @@ Desafio DIO. Criando dashboard de vendas com modelos de carros da Porsche.
 <br>
 <br>
 <p align="center">
-  <a href="#funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#perguntas-de-negocio">Perguntas de negócio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#heavy_check_mark-requisitos-necessários">Requisitos necessários</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#arrow_down_small-clonando-o-repositório">Clonando o repositório</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#beginner-iniciando-a-aplicação">Iniciando a aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -17,17 +17,25 @@ Desafio DIO. Criando dashboard de vendas com modelos de carros da Porsche.
 </p>
 
 
-### Funcionalidades
+### Perguntas de negócio
 
-- Cadastrar Grupos;
-- Cadastrar Pessoas; 
-- Listar Grupos cadastrados em lista;
-- Listar Pessoas cadastradas em lista;
-- Excluir Grupos;
-- Excluir Pessoas;
+* **Indicadores de topo, como total de vendas e receita** - Permitem uma visão rápida do desempenho comercial, facilitando o acompanhamento do volume de vendas e do faturamento gerado. Funcionam como indicadores de referência para avaliar os resultados gerais do negócio.
+* **Modelos campeões de vendas** - Destaca os veículos com maior volume de vendas no período analisado, permitindo identificar os modelos de melhor desempenho comercial e compreender quais produtos concentram maior participação nas vendas.
+* **Total de venda geral e por ano** - Permite identificar quais modelos possuem maior demanda em cada período, acompanhar mudanças nas preferências dos consumidores e analisar tendências de vendas ao longo dos anos, contribuindo para decisões de estoque e planejamento comercial.  
+* **Modelos mais vendidos por cidade** - Permite comparar o volume de vendas entre cidades, identificar mercados com maior relevância comercial e analisar o desempenho regional, apoiando decisões de expansão e estratégias de atuação local.
 
-  
+**Interatividade e indicadores de desempenho**
 
+Todos os indicadores e análises possuem representações gráficas e podem ser explorados por meio de filtros interativos de Ano da venda, Cidade e Forma de pagamento, permitindo segmentar os dados e comparar diferentes cenários. A dashboard apresenta quatro indicadores principais:
+Volume de vendas: quantidade total de vendas realizadas.
+<br>
+Receita bruta: valor total gerado pelas vendas.
+<br>
+Ticket médio: valor médio por venda.
+<br>
+Entregues: quantidade de veículos com entrega concluída.
+<br>
+<br>
 
  <p align="center">
     <img src="imgs/screenshot_expo-go-home.jpg" width="20%" height="20%" max-width:"50%" >
