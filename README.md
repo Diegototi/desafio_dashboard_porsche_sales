@@ -70,6 +70,14 @@ Utilizando o recurso canvas, renderize um dashboard em HTML. Crie indicadores de
 
 Sobre o UI/UX, baseie-se no site oficial da Porsche Brasil (https://www.porsche.com), mantendo um ar elegante e sóbrio.
 ```
+**Ajustes e finalização:**
+Após visualizar e conferir a primeira versão do dashboard, utilizei o seguinte prompt para ajustes visuais, formatação de dados e correções nos gráficos:
+
+```text
+- Adicionar no topo a foto de um carro Porsche
+- Nos campos onde aparecem valores, mantenha o padrão com duas casas decimais após a vírgula sem arredondamento, nesse padrão: "Receita bruta \$12.827.800,50"
+- Alguns gráficos estão cortando informações, por exemplo "Formas de pagamento - Quantidade por forma de pagamento" e "Desempenho por cidade - Ranking por volume · modelo, ano e valor". Pode escolher um gráfico melhor e/ou ajustar
+```
 
 ### :arrow_down_small: Clonando o repositório
 1. Pelo terminal, acesse o diretório em que deseja ter o repositório clonado e execute o comando a seguir.
