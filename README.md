@@ -51,17 +51,25 @@ Todos os indicadores e análises possuem representações gráficas e podem ser 
 
 ### :bulb: Prompt e ferramentas do dashboard
 
-Seguem as configurações neessárias para visualizar a aplicação em sua máquina.
- 
-- Android Studio
-- Git
-- Celular(Opcional)
-- Node.js
-- React
-- React-Native
-- Expo
-- TypeScript
-- Yarn(ou NPM)
+Nesse desafio, utilizei o **ChatGPT** (versão gratuita). Cheguei a fazer testes na criação de agentes, mas o resultado que mais me agradou foi utilizando o chat tradicional combinado com o recurso **Canvas**. 
+
+Veja o prompt inicial utilizado para gerar a estrutura:
+
+```text
+Utilizando o recurso canvas, renderize um dashboard em HTML. Crie indicadores de topo, como total de vendas e receita.
+
+# Filtros:
+-> Modelos mais vendidos por ano
+-> Modelos mais vendidos por cidade
+-> Modelos vendidos por forma de pagamento
+
+# Perguntas de negócio e KPIs:
+-> Total de venda geral e por ano (com gráfico)
+-> 5 modelos campeões de vendas (com gráfico)
+-> Campeões de vendas por cidade (modelos, ano e valor com gráfico)
+
+Sobre o UI/UX, baseie-se no site oficial da Porsche Brasil (https://www.porsche.com), mantendo um ar elegante e sóbrio.
+```
 
 ### :arrow_down_small: Clonando o repositório
 1. Pelo terminal, acesse o diretório em que deseja ter o repositório clonado e execute o comando a seguir.
