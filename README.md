@@ -103,7 +103,7 @@ Após visualizar e conferir a primeira versão do dashboard, utilizei o seguinte
 
 
 
-### :frame_with_picture: Imagens e exemplos de filtros
+### :framed_picture: Imagens e exemplos de filtros
 Abra o projeto e instale as dependências e rode o projeto:
 
 cd imhere <br>
