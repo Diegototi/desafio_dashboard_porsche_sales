@@ -32,6 +32,15 @@ Crie um agente que leia o arquivo Planilha Porsche.xlsx e aplique as regras do s
 
 3. **Saída e automação (`porsche.py`):** O Claude retornou a planilha já sanitizada e gerou um script em Python (utilizando a biblioteca `openpyxl`). O código lê o arquivo `.xlsx`, cria colunas *"Sanitized"* ao lado das originais, marca valores fora do padrão como `INVALID` e gera uma aba de log detalhando todas as alterações.
 4. **Validação final:** Após revisar o log e realizar pequenos ajustes manuais, a base ficou pronta para alimentar o dashboard.
+5. **Segurança e privacidade dos dados:** Antes de gerar o HTML do dashboard, utilizei o Claude para remover as colunas com dados pessoais (`vendedor` e `comprador`) e auditar o arquivo final, garantindo que nenhuma informação sensível fosse exposta. Após a confirmação da IA, realizei uma verificação manual final.
+
+```text
+Prompt 1 (Anonimização):
+Remova da planilha os nomes dos vendedores e compradores e me informe se julgar alguma outra informação de segurança para remover.
+
+Prompt 2 (Auditoria):
+Confirme com certeza e provas que os nomes dos vendedores e compradores que estavam na planilha base não foram parar no HTML final.
+```
 <br>
 <br>
 <br>
