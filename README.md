@@ -10,8 +10,8 @@ Desafio DIO. Criando dashboard de vendas com modelos de carros da Porsche.
 <p align="center">
   <a href="#bar_chart-tratando-a-base-de-dados">Tratando a base de dados</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
   <a href="#question-perguntas-de-negócio">Perguntas de negócio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#bulb-prompt-e-ferramentas-do-dashboard">Prompt e ferramentas do dashboard</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#frame_with_picture-imagens-e-exemplos-de-filtros">Imagens e exemplos de filtros</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#bulb-prompt-e-ferramentas-do-dashboard">Prompt e ferramentas do dashboard</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#framed_picture-imagens-e-exemplos-de-filtros">Imagens e exemplos de filtros</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">Licença</a>
 </p>
 <br>
