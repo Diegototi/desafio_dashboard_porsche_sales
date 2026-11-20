@@ -9,7 +9,7 @@ Desafio DIO. Criando dashboard de vendas com modelos de carros da Porsche.
 <br>
 <p align="center">
   <a href="#question-perguntas-de-negócio">Perguntas de negócio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#bulb-prompt-do-dashboard">Prompt do dashboard</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#bulb-prompt-e-ferramentas-do-dashboard">Prompt e ferramentas do dashboard</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#heavy_check_mark-requisitos-necessários">Requisitos necessários</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#arrow_down_small-clonando-o-repositório">Clonando o repositório</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#beginner-iniciando-a-aplicação">Iniciando a aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -49,7 +49,7 @@ Todos os indicadores e análises possuem representações gráficas e podem ser 
     <img src="imgs/screenshot_expo-go-delete.jpg" width="20%" height="20%" max-width:"50%" >
   </p>
 
-### :bulb: Prompt do dashboard
+### :bulb: Prompt e ferramentas do dashboard
 
 Seguem as configurações neessárias para visualizar a aplicação em sua máquina.
  
