@@ -11,8 +11,7 @@ Desafio DIO. Criando dashboard de vendas com modelos de carros da Porsche.
   <a href="#bar_chart-tratando-a-base-de-dados">Tratando a base de dados</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
   <a href="#question-perguntas-de-negócio">Perguntas de negócio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#bulb-prompt-e-ferramentas-do-dashboard">Prompt e ferramentas do dashboard</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#beginner-iniciando-a-aplicação">Iniciando a aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#wrench-tecnologias--ferramentas--recursos">Tecnologias | Ferramentas | Recursos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#frame_with_picture-imagens-e-exemplos-de-filtros">Imagens e exemplos de filtros</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">Licença</a>
 </p>
 <br>
@@ -104,7 +103,7 @@ Após visualizar e conferir a primeira versão do dashboard, utilizei o seguinte
 
 
 
-### :beginner: Iniciando a aplicação
+### :frame_with_picture: Imagens e exemplos de filtros
 Abra o projeto e instale as dependências e rode o projeto:
 
 cd imhere <br>
