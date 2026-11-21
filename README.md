@@ -8,7 +8,7 @@ Desafio DIO. Criando dashboard de vendas com modelos de carros da Porsche.
 <br>
 <br>
 <p align="center">
-  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#bar_chart-tratando-a-base-de-dados">Tratando a base de dados</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
+  <a href="#bar_chart-tratando-a-base-de-dados">Tratando a base de dados</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
   <a href="#question-perguntas-de-negócio">Perguntas de negócio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#bulb-prompt-e-ferramentas-do-dashboard">Prompt e ferramentas do dashboard</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="#framed_picture-imagens-e-exemplos-de-filtros">Imagens e exemplos de filtros</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -127,9 +127,12 @@ Painel inicial com os principais indicadores de desempenho, apresentando o volum
 
 ### :wrench: Dashboard publicada
 
+* Dashboard online: https://diegototi.github.io/desafio_dashboard_porsche_sales/
+ 
 
-
-
+<br>
+<br>
+<br>
 ### :memo: License
 Esse projeto está sob MIT license. Veja [LICENSE](https://github.com/Diegototi/series-console-app/blob/main/LICENSE) para mais informações.
 
