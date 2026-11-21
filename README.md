@@ -1,5 +1,3 @@
-# desafio_dashboard_porsche_sales
-
 Dashboard de Vendas Porsche
 
 <p align="center">
