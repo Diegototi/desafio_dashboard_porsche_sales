@@ -108,7 +108,7 @@ Após visualizar e conferir a primeira versão do dashboard, utilizei o seguinte
 Imagem do topo com informações 
 
 <p align="center">
-    <img src="imgs/screenshot_expo-go-home.jpg" width="20%" height="20%" max-width:"50%" >
+    <img src="images/topo.png" width="20%" height="20%" max-width:"50%" >
     <img src="imgs/screenshot_expo-go-add.jpg" width="20%" height="20%" max-width:"50%" >
     
   </p>
