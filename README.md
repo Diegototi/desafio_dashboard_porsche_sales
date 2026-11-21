@@ -104,14 +104,22 @@ Após visualizar e conferir a primeira versão do dashboard, utilizei o seguinte
 
 
 ### :framed_picture: Imagens e exemplos de filtros
+**-** Imagem do topo com informações 
 
-Imagem do topo com informações 
-
+Painel inicial com os principais indicadores de desempenho, apresentando o volume total de vendas, receita bruta, ticket médio e quantidade de veículos entregues. Permite uma visão rápida dos resultados comerciais da Porsche no período analisado:
 <p align="center">
-    <img src="images/topo.png" width="20%" height="20%" max-width:"50%" >
-    <img src="imgs/screenshot_expo-go-add.jpg" width="20%" height="20%" max-width:"50%" >
-    
-  </p>
+    <img src="./images/tpo.png" width="100%" alt="Principais indicadores do dashboard Porsche">
+</p>
+<br>
+
+**-** Exemplo de aplicação do filtro de Cidade, selecionando Atlanta. Os indicadores do topo e os gráficos são atualizados automaticamente, apresentando o volume de vendas por ano e os modelos mais vendidos, considerando apenas os dados da cidade selecionada:
+<br>
+<p align="center">
+    <img src="./images/filtro.png" width="100%" alt="Dashboard Porsche filtrado pela cidade de Atlanta">
+</p>
+<br>
+<br>
+<br>
 
 
 ### :wrench: Tecnologias | Ferramentas | Recursos
