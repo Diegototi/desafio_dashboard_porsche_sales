@@ -1,4 +1,12 @@
 # desafio_dashboard_porsche_sales
+
+Dashboard de Vendas Porsche
+
+<p align="center">
+  <a href="https://diegototi.github.io/desafio_dashboard_porsche_sales/">
+    <strong>🚀 CLIQUE AQUI PARA ACESSAR O DASHBOARD ONLINE</strong>
+  </a>
+</p>
 Desafio DIO. Criando dashboard de vendas com modelos de carros da Porsche.
 
   Desenvolvi este dashboard como parte do desafio do curso **Criando Agentes de Tratamento de Dados**, da [DIO](https://www.dio.me/). Na prática, utilizei Inteligência Artificial para manipular uma planilha e transformar dados brutos em uma base limpa e sanitizada. Em seguida, construí o dashboard para centralizar os principais indicadores (KPIs) em uma única tela, facilitando o acompanhamento de metas e a tomada de decisões rápidas.
