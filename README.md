@@ -131,6 +131,7 @@ Painel inicial com os principais indicadores de desempenho, apresentando o volum
 <br>
 <br>
 <br>
+
 ### :memo: License
 Esse projeto está sob MIT license. Veja [LICENSE](https://github.com/Diegototi/series-console-app/blob/main/LICENSE) para mais informações.
 
