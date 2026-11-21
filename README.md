@@ -104,11 +104,15 @@ Após visualizar e conferir a primeira versão do dashboard, utilizei o seguinte
 
 
 ### :framed_picture: Imagens e exemplos de filtros
-Abra o projeto e instale as dependências e rode o projeto:
 
-cd imhere <br>
-npm install <br>
-npx expo start <br>
+Imagem do topo com informações 
+
+<p align="center">
+    <img src="imgs/screenshot_expo-go-home.jpg" width="20%" height="20%" max-width:"50%" >
+    <img src="imgs/screenshot_expo-go-add.jpg" width="20%" height="20%" max-width:"50%" >
+    
+  </p>
+
 
 ### :wrench: Tecnologias | Ferramentas | Recursos
 
